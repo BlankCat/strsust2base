@@ -1,0 +1,62 @@
+.container{ width: 960px;margin: 0 auto; }
+
+.tabs{ padding-top: 182px; }
+.tabs .container{ height: 304px;overflow: hidden;display: table; }
+.tabs .left{ height: 304px;position: absolute;width: 301px;background: url("../images/cooperate_lowyerfirm/play-lf-bg.png") repeat-y transparent; }
+.tabs .left h3{ border-bottom: solid 1px #ddd;background-color: #e5e5e5;height: 50px;line-height: 50px;color: #333;font-style: normal;font-size: 20px;width: 258px;padding: 8px 0 2px 25px;font-family: "microsoft", "微软雅黑";overflow: hidden; }
+.cont-list{ padding-top: 15px; }
+.cont-list li { padding: 0 30px 0 22px;height: 34px;line-height: 34px;cursor: pointer; }
+.cont-list li strong{ font-size: 19px;font-weight: bolder;color: #2a61ff;vertical-align: middle;font-family: "Arial Black";font-style: italic;padding-right: 8px; }
+.cont-list li span{ display: inline-block;padding-left: 10px;font-size: 15px;color: #777;vertical-align: middle; }
+.cont-list li.selected{ background: url("../images/cooperate_lowyerfirm/play-lf-select-bg.png") no-repeat transparent;height: 34px;line-height: 34px;padding-bottom: 3px; }
+.cont-list li.selected strong{ color: #fff; }
+.cont-list li.selected span{ color: #fff; }
+.pic_view{ height: 304px;width: 679px;float: right; }
+
+.title1,.title2,.title3,.title4,.title5{  }
+.title1{ background: url("../images/cooperate_lowyerfirm/title1.png") no-repeat center 0 transparent;height: 84px;margin: 20px 0 0; }
+.title2{ background: url("../images/cooperate_lowyerfirm/title2.png") no-repeat center 0 transparent;height: 93px;margin: 10px 0 0; }
+.title3{ background: url("../images/cooperate_lowyerfirm/title3.png") no-repeat center 0 transparent;height: 105px;margin: 10px 0 0; }
+.title4{ background: url("../images/cooperate_lowyerfirm/title4.png") no-repeat center 0 transparent;height: 93px;margin: 20px 0 0; }
+.title5{ background: url("../images/cooperate_lowyerfirm/title5.png") no-repeat center 0 transparent;height: 84px;margin: 20px 0 0; }
+.gotoDownloads{ background: url("../images/cooperate_lowyerfirm/goto_downloads.png") no-repeat transparent;display: inline-block;height: 47px;left: 50%;margin: 174px 0 0 256px;position: absolute;width: 203px; }
+.gotoDownloads:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.blk1-1{ padding: 0; }
+.blk1-2{ padding: 0; }
+.blk1-3{ padding: 0; }
+.blk2{ padding: 30px 0 0; }
+.blk3{ padding: 40px 0 0; }
+.blk4-1{ padding: 20px 0 0; }
+.blk4-2{ padding: 30px 20px 20px 0; }
+.blk4-btm{ overflow: hidden;display: table; }
+.blk4-btm .left{ float: left;width: 730px; }
+.blk4-btm .btn-box{ background: url("../images/cooperate_lowyerfirm/btn-shadow.png") no-repeat 0 52px transparent;float: left;width: 202px;height: 41px;padding: 10px 0 40px; }
+.blk4-btm .btn-box .btn{ display: inline-block;width: 202px;height: 44px;background: url("../images/cooperate_lowyerfirm/btn-bg.png") no-repeat transparent; }
+.blk4-btm .btn-box .btn:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.blk5{ padding: 20px 0 60px;margin: 0 auto 22px;background: url("../images/cooperate_lowyerfirm/blk5.png") no-repeat center bottom transparent; }
+/*.comments{ background: url("../images/cooperate_lowyerfirm/comments-bg.png") no-repeat;height: 166px;width: 797px;padding: 41px 0 0;margin:0 auto; }
+.comments .left{ position: absolute;left: 50%;margin-left: -360px;margin-top: 34px;display:inline-block;height: 32px;width: 21px;background: url("../images/cooperate_lowyerfirm/comments-lf.png") no-repeat; }
+.comments .right{ position: absolute;left: 50%;margin-left: 339px;margin-top: 34px;display:inline-block;height: 32px;width: 21px;background: url("../images/cooperate_lowyerfirm/comments-rt.png") no-repeat; }
+.comments .left:hover, .comments .right:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.comments .comments_board{ position: absolute;left: 50%;height: 100px;width: 640px;margin-left: -320px;overflow: hidden; }
+.comments_list{  }
+.comment_li{ display: none;position: absolute;height:100px;width: 640px; }
+.a_comment{ overflow: hidden;display: table;width: 100%;height: 100px; }
+.comment_photo{ float: left;width: 80px;height: 80px;margin: 4px 6px;_margin: 2px 3px;box-shadow: 1px 1px 2px #777; }
+.comment_photo img{ border: 3px solid #fff;width: 74px;height: 74px; }
+.comment_context{ float: left;padding: 0 0 0 15px;height: 82px;line-height: 20px;width: 520px;color: #666;overflow: hidden; }
+.comment_user_name{ font-size: 14px;font-weight: bold;color: #2a61ff;vertical-align: middle; }*/
+.comments{ background: url("../images/cooperate_lowyerfirm/comments-bg.png") no-repeat transparent;height: 166px;width: 797px;padding: 41px 0 0;margin:0 auto; }
+.comments .left{ position: absolute;left: 50%;margin-left: -360px;margin-top: 34px;display:inline-block;height: 32px;width: 21px;background: url("../images/cooperate_lowyerfirm/comments-lf.png") no-repeat transparent; }
+.comments .right{ position: absolute;left: 50%;margin-left: 339px;margin-top: 34px;display:inline-block;height: 32px;width: 21px;background: url("../images/cooperate_lowyerfirm/comments-rt.png") no-repeat transparent; }
+.comments .left:hover, .comments .right:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.comments .comments_board{ position: absolute;left: 50%;height: 100px;width: 572px;margin-left: -287px;overflow: hidden; }
+.comments_list{  }
+.comment_li{ display: none;position: absolute;height:106px;width: 570px; }
+.a_comment{ overflow: hidden;display: table;width: 100%;height: 100px; }
+.comment_photo{ border: 1px solid #ccc;float: left;width: 72px;height: 72px; }
+.comment_photo img{ border: 1px solid #fff;width: 70px;height: 70px; }
+div.comment_context{ float: left;padding: 0 0 0 15px;width: 480px;color: #666;overflow: hidden; }
+p.comment_context{ float: left;height: 82px;line-height: 20px;padding-top: 8px;width: 480px;color: #666;overflow: hidden; }
+.comment_user_name{ font-size: 14px;font-weight: bold;color: #2a61ff;vertical-align: middle; }
+

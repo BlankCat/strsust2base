@@ -1,0 +1,144 @@
+/* CSS Document */
+body { text-align:center; font-family:\5B8B\4F53; background:#fff; font-size:12px; color:#333 }
+body, ul, li, h1, h2, h3, h4, h5, form, input, p, table, td { padding:0; margin:0 }
+li, ul { list-style-type:none }
+img { vertical-align:top; border:0 }
+ul { list-style:none }
+table, td { border-collapse:collapse; border:0 }
+td { vertical-align:top }
+a:active, a:focus { outline:none }
+h1, h2, h3, h4 { font-size:12px; font-weight:normal }
+a { color:#17387b; text-decoration:none }
+a:visited { color:#17387b; text-decoration:none }
+a:hover { color:#red; text-decoration:underline }
+a:active { color:#17387b }
+.clear:after { clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"." }
+.fl_l { float:left }
+.fl_r { float:right }
+.blank, .blank30 { height:5px; overflow:hidden; font-size:1px; clear:both }
+.blank30 { height:30px }
+.cwhite, .cwhite a:link, .cwhite a:visited, .cwhite a:hover, .cwhite a:active { color:#fff }
+.cred, .cred a:link, .cred a:visited, .cred a:hover, .cred a:active { color:red }
+.cob_inx, .cob_inb { clear:both; display:block; width:980px; margin:0 auto; }
+.inx_flash { float:left; display:block; width:400px; height:343px; overflow:hidden }
+.inx_tab { height:333px; float:right; width:520px; background:#efefef; padding:5px }
+.inx_tab .tab_tit { clear:both; display:block; border:1px solid #e0e0e0; border-bottom:0; height:26px; background: url(../images/bag.png) repeat-x; padding-left:15px }
+.inx_tab .tab_tit li { float:left; line-height:26px; padding:0 15px; cursor:pointer; color:#16387c; font-weight:bold }
+.inx_tab .tab_tit li.hover { background:url(../images/bag.png) 0 -26px repeat-x; border:1px solid #95a7b5; border-width:0 1px; padding:0 14px }
+.inx_tab .tab_bot { clear:both; display:block; border:1px solid #e0e0e0; border-top:0; height:300px; padding-top:5px; overflow:hidden; background:#fff }
+.inx_tab .tab_bot li { clear:both; display:block; text-align:left; line-height:25px; position:relative; padding-left:15px }
+.inx_tab .tab_bot li span { position:absolute; top:0; right:15px; color:#666; text-align:right }
+.cob_inb { border:1px solid #d8d5d5; width:978px;}
+.col_tit { border-bottom:1px solid #b4bab8; margin:0 auto; background:url(../images/tit.png) no-repeat 0 6px; text-align:left; position:relative; line-height:25px; color:#487d81; font-size:14px; font-weight:bold; font-family:\5FAE\8F6F\96C5\9ED1; text-indent:12px; }
+.col_tit .more03 { font-size:12px; color:red; font-weight:normal; font-family:\5B8B\4F53; position:absolute; right:6px; top:0; line-height:25px }
+.col_tit .more02 { position:absolute; right:6px; top:8px; }
+.col_bot { text-align:left; margin:0 auto; position:relative; height:auto}
+.col_bot .call{width:210px; border-top:1px dashed #99a0ab; line-height:25px; padding-left:5px; padding-top:5px; margin-top:5px}
+.col_bot li { clear:both; display:block; line-height:25px; text-align:left; position:relative; height:25px}
+.col_bot li span { position:absolute; text-align:right; top:0; right:6px }
+.col_list { width:230px; margin:0 auto; overflow:hidden}
+.col_list li { clear:both; display:block; width:auto; text-align:left; line-height:25px; position:relative; height:25px}
+.col_list b { text-align:left; background:url(../images/li_list.png) no-repeat 0 6px; float:left; color:#fff; display:inline-block; width:25px; text-indent:3px }
+.col_list li.one { color:red; line-height:25px; padding-top:5px; height:25px}
+.col_list li.one b { color:red; background:none; width:60px; text-align:left; font-weight:normal; text-indent:0 }
+.col_list li span { position:absolute; right:0; width:60px; top:0; text-align:right }
+.col_list li.one span{top:5px}
+.col_box01, .col_box02, .col_box03, .col_box04, .col_box05, .col_box06 { float:left; width:235px; height:auto; margin-top:10px; border-right:1px dashed #e2e2e2; text-align:center; color:#17387b; overflow:hidden }
+.col_box01 .col_tit { width:205px }
+.col_box01 .col_bot { width:205px }
+.col_box02 { width:483px }
+.w_743{width:740px}
+.col_box02 .col_tit { width:445px }
+.col_box02 .teacher { margin:0 auto; width:445px; clear:both; display:block; text-align:left }
+.col_box02 .teacher a { display:inline-block; width:49px; text-align:center; line-height:25px }
+.col_box02 .teacher b{font-weight:normal;}
+.col_box02 .w_702{width: 702px}
+.col_box02 .w_702 b{width:170px; text-align:left; display: inline-block; color: #666}
+
+.col_box03 { width:258px; border:0; }
+.col_box03 .col_tit { width:230px }
+.col_box03 .col_list { width:230px; margin:0 auto }
+.col_box03 .col_list li { clear:both; display:block; width:auto; text-align:left; line-height:25px; position:relative; height:25px}
+.col_box03 .col_list b { text-align:left; background:url(../images/li_list.png) no-repeat 0 6px; float:left; color:#fff; display:inline-block; width:25px; text-indent:3px }
+.col_box03 .col_list span { position:absolute; right:0; top:0; width:60px; text-align:right }
+.col_box04 { width:326px }
+.col_box04 .col_tit { width:290px }
+.col_box04 .col_list { width:290px; margin:0 auto }
+.col_box05 { width:326px }
+.col_box05 .col_tit { width:290px }
+.col_box05 .col_list { width:290px; margin:0 auto }
+.col_box06 { width:324px; border:0; }
+.col_box06 .col_tit { width:290px }
+.col_box06 .col_list { width:290px; margin:0 auto }
+
+/***/
+#head { width:980px }
+#head .top { width:968px; background:#e3efff }
+#head .meun_t { width:980px; position:relative }
+#head .meun_t a{padding:0 3px}
+
+/**/
+#boot { clear:both; width:980px; border:1px solid #d7d7d7; background:#fafafa; height:66px; margin:0 auto }
+#boot span { width:25px; height:66px; background:url(http://www.zfwx.com/images/newxy.png) no-repeat 0 -80px; float:left }
+#boot li { float:left; padding:0 12px; height:33px; line-height:33px; text-align:left }
+#boot li img { vertical-align:middle; padding-right:4px }
+#boot a.red { color:red }
+#boott { clear:both; width:980px; margin:0 auto; height:auto; padding-top:10px; color:#000; text-align:center; line-height:22px }
+#boott .col_bott { clear:both; background:#f1f1f1; height:32px; line-height:32px; text-align:center }
+#boott .col_bott a { color:#000; margin:0 16px }
+#boott span { clear:both; display:block; width:980px; height:6px; background:url(http://www.zfwx.com/images/newxy.png) repeat-x 0 -414px; margin-top:10px }
+
+
+  
+.shi_tit{width:980px; text-align:left; margin:0 auto; height:35px; line-height:35px}
+.shi_head, .shi_bot{clear:both; width:950px; border:1px solid #ccc; margin:0 auto; clear:both; text-align:center; position:relative}
+.shi_head h3{clear:both; display:block; width:900px; margin:0 auto; text-align:left; font-weight:bold; color:#487d81; font-size:14px; font-family:"黑体"; height:40px; line-height:40px}
+.shi_head p.txt{width:890px; text-align:left; text-indent:2em; line-height:25px; margin:0 auto}
+.shi_head .hr{clear:both; width:890px; margin:20px auto 15px; display:block; height:1px; font-size:1px; overflow:hidden; border-bottom:1px solid #999}
+.shi_head h3 .sear{display:inline;line-height: 25px;}
+.shi_head h3 input.txt{border:1px solid #ccc; width:230px; height:20px; color:#555; margin-left:10px}
+.shi_head h3 input.but{border:0; cursor:pointer; width:67px; height:20px; text-align:center; background:#65a5c1; color:#fff; cursor:pointer}
+.shi_link_zhi{width:890px; text-align:left; margin:0 auto; margin-bottom:15px; margin-top:5px}
+.shi_link_zhi b{width:auto; text-align:center; display:inline-block; padding:0 12px; font-size:14px; font-weight:normal; cursor:pointer}
+.shi_link_zhi b.hover, .shi_link_zhi b.hove{font-weight:bold; color:#c30; font-weight:bold}
+.shi_bot{margin-top:8px; margin-bottom:25px; font-size:13px}
+.shi_bot h3{clear:both; display:block; width:900px; margin:0 auto; text-align:left; font-weight:bold; height:40px; line-height:40px}
+.shi_bot h3 b{color:#487d81; font-family:"黑体"; font-size:14px; float: left;}
+.shi_bot h3 strong{width:820px; float:right; text-align:left; font-size:12px; font-weight:normal; color:#c30}
+.shi_bot h3 strong a, .shi_bot h3 strong a:visited{color:#c30; width:65px; text-align:left; display:inline-block}
+.con_bot_shi{ margin:0 auto; border-bottom:1px dashed #666; width:890px; text-align:left; color:#666}
+.con_bot_shi b{ font-family:Academy Engraved LET; clear:both; display:block; font-size:18px; font-weight:bold; margin-top:10px}
+.con_bot_shi .bot{clear:both; display:block; position: relative;}
+.con_bot_shi .bot a{ width:80px; text-align:left; display:inline-block; line-height:20px; padding-bottom:5px; color:#666}
+.con_bot_shi .bot a:visited{color:#666}
+.shi_bot .shi_not{clear:both; font-size:12px; position: absolute; text-align: left;top: -17px; left: 20px} 
+.shi_bot .shi_nott{clear:both; font-size:14px; text-align: center; padding: 20px; font-weight: bold;} 
+
+
+.list_tit{clear:both; display:block; text-align:left; width:980px; margin:0 auto; color:#333; line-height:25px}
+.list_tit strong{ font-size:14px; float:left; width:105px; color:#000}
+.list_tit b{color:#d5461a; padding-right:3px}
+.list_tit em{font-style:normal; padding-right:15px}
+.list_tit em span, .list_tit a{ color:#d5461a; padding:0 3px}
+.list_tit a{text-decoration:underline}
+.list_cob{width:980px; clear:both; display:block; margin:0 auto}
+/*.coll_list{width:315px; float:left; margin:0 17px 17px 0}*/
+.coll_list{width:322px; float:left; margin:0 6px 6px 0}
+.coll_list h3.tit{background:url(../../wangxiao/images/list_bg.png) no-repeat; width:322px; height:30px; overflow:hidden; clear:both; display:block; position:relative; color:#189cc3; font-weight:bold; line-height:30px; text-indent:8px; text-align:left}
+.coll_list h3.tit span{position:absolute; color:#666; font-size:12px; font-weight:normal; height:30px; line-height:30px; top:0; right:6px; width:auto}
+.coll_list .coll_b_list{border:1px solid #189cc3; border-top:0; width:320px; text-align:center; padding-top:10px}
+.coll_list .coll_b_list table{width:282px; margin:0 auto; border-collapse:collapse; border:0; margin-bottom:5px}
+.coll_b_list td{border-bottom:1px dashed #a0a0a0; height:25px; vertical-align:middle; color:#333; text-align:left}
+.coll_b_list tbody td{color:#16387c}
+.coll_b_list td.one{ width:40px; text-align:left; padding-left:5px; text-indent:1px}
+.coll_b_list td.one .one_ser{background:url(../../wangxiao/images/list_bg.png) 0 -30px; width:15px; color:#fff; height:15px; text-align:center}
+.coll_b_list td.one .two_ser{background:url(../../wangxiao/images/list_bg.png) 0 -45px; width:15px; color:#fff; height:15px; text-align:center}
+.coll_b_list td.end{ padding-right:8px; text-align:right} 
+.coll_b_list tbody td.end{color:#900;}
+.coll_list_r0{margin-right:0}
+
+
+
+
+
+

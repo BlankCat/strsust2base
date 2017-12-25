@@ -1,0 +1,66 @@
+@charset "gb2312";
+/* 2010年学院页面改版 */
+body { text-align:center; font-family:\5B8B\4F53, Arial Narrow, arial, serif; background:url(../images/bodybg.png) repeat-y  center 0; font-size:12px; color:#16387c }
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, form, input, p { padding:0; margin:0; }
+table, td, tr, th { font-size:12px; }
+li, ul { list-style-type:none; }
+table { margin:0 auto; border-collapse:collapse }
+img { vertical-align:top; border:0; }
+ul { list-style:none; }
+.fl-l{float:left}
+.fl-r{float:right}
+a:active, a:focus { outline:none; }
+h1, h2, h3, h4, h5, h6 { font-size:12px; font-weight:normal; }
+.clear { }
+.clear:after { clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+a { color:#16387c; text-decoration:none; }
+a:visited { color:#16387c; text-decoration:none; }
+a:hover { color:#16387c; text-decoration:underline; }
+a:active { color:#16387c; }
+.blank { clear:both; height:4px; display:block; overflow:hidden }
+.none { display:none }
+/* HEAD页头 */
+#head { width:995px; margin:0 auto; clear:both; padding-top:5px }
+#head .top { width:983px; clear:both; height:27px; border:1px solid #adcfff; background:url(../images/newxy_bg.png) repeat-x; padding-left:10px }
+#head .top li { float:left }
+
+#head .register { float:left; margin-left:6px; padding-top:3px;}
+#head .zhuce{float:left; margin-left:10px; padding-top:8px;}
+
+#head .top label { background:url(../images/newxy_ico.png) no-repeat -584px -32px; padding-left:20px; height:27px; line-height:27px; float:left }
+#head .top label.pass { margin-left:10px; background-position: -584px 4px }
+#head .top input.txt, #head .top input.text_sear { border:1px solid #aeb7c0; width:80px; vertical-align:middle; margin-top:2px }
+#head .top input.text_sear { margin-left:25px; width:120px }
+#head .top input.but01, #head .top input.but02 { background:url(../images/newxy_ico.png) no-repeat 0 0; width:37px; height:20px; cursor:pointer; border:0; margin:2px 0 0 8px; line-height:20px; color:#16387c; font-size:12px }
+#head .top input.but02 { background-position:-37px 0; width:56px }
+#head .top_my{float:left; width:300px; _width:350px;text-align:left; text-indent:35px; word-spacing:25px; height:27px; line-height:27px; color:#f00; display:none}
+#head .top_rig { float:right; height:27px; line-height:27px; word-spacing:8px; padding-right:10px }
+#head .logo_cn { width:100%; clear:both; height:80px; padding:4px 0 }
+#head .logo_l { float:left; padding-right:4px }
+#head .logo_c { float:left }
+#head .logo_r { float:right }
+#head .meun_t { clear:both; border:1px solid #99a0ab; width:993px; display:block; height:23px; line-height:23px; background:#e3f3ff; text-align:left }
+#head .meun_t b { background:#30a4fb; color:#fff; height:23px; float:left; font-size:12px; text-align:center; width:75px; margin-right:5px }
+#head .meun_t a { margin-left:0px }
+
+
+#head .meun_b { clear:both; border:1px solid #99a0ab; border-top:none; width:980px; display:block; height:25px; padding-top:3px; padding-left:13px; background:#e3f3ff; text-align:left; line-height:20px }
+#head .meun_b a{cursor:pointer}
+#head .meun_b input.but { cursor:pointer; width:36px; height:17px; text-align:center; border:0; background:url(../images/newxy_ico.png) no-repeat -93px 0; color:#fff; line-height:17px; font-size:12px }
+#head .meun_b input.txt { border:1px solid #87a1c9; color:#333; font-size:12px; line-height:17px; height:18px; width:120px; text-indent:3px }
+#head .meun_b input.txt01 { width:160px }
+#head .meun_b input { vertical-align:text-bottom; #vertical-align:middle;}
+#head .meun_b span { border-left:1px solid #7993a7; background:#fdfdfd; width:1px; height:20px; display:inline-block; margin:0 3px; vertical-align:bottom }
+#head .meun_b table{width:auto; display:inline; overflow:hidden; vertical-align:bottom; height:20px}
+#head .meun_b table td{line-height:normal; height:13px; #padding-top:3px}
+#head .meun_b span#newLsmlHead1_rblSelected{ width:auto; height:auto; margin:0; background:none; border:none}
+
+
+
+#head .h_seh{background:#ffc027; border:1px solid #a2d1ff; clear:both; width:993px; margin:0 auto; height:25px; padding-top:3px; text-align:left; word-spacing:15px; position:relative; text-indent:20px; display:none}
+#head .h_seh span{position:absolute; right:10px; top:10px}
+/*foot页尾*/
+#foot { clear:both; width:995px; margin:0 auto; margin-top:4px; display:block; background:#fff }
+#foot b { clear:both; display:block; height:47px; text-align:center; background:url(../images/newxy_bg.png) repeat-x 0 -875px; font-weight:normal; line-height:35px; color:#222 }
+#foot b a { margin:0 10px; color:#222 }
+#foot p { text-align:center; line-height:22px; padding-top:15px; color:#222; padding-bottom:20px }

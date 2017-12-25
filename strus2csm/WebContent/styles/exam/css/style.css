@@ -1,0 +1,108 @@
+/*公共样式*/
+* { margin: 0; padding: 0; }
+.red { color: #f00; }
+.hand { cursor: pointer; }
+.bold { font-weight: bold; }
+.uline { text-decoration: underline; }
+.padding_left_0 { padding-left: 10px; }
+
+/*页面背景*/
+.body { background: url("../images/body_bg.png") repeat scroll 0 0 transparent; }
+body { background: url("../images/body_bg.png") repeat scroll 0 0 transparent; }
+/*答案页面上下文样式*/
+.contain, .footer { margin: 0 auto; width: 980px; }
+.contain { background-color: #fff; margin: 15px auto; box-shadow: 1px 3px 4px #aaa; }
+.footer { padding-bottom: 50px; }
+
+#examForm {
+	text-align: center;
+}
+
+/*试题页面上下文样式*/
+.contain_0, .footer_0 { margin: 0 auto; width: 780px; }
+.contain_0 { background-color: #fff; margin: 15px auto; box-shadow: 1px 3px 4px #aaa; }
+.footer_0 { padding-bottom: 50px; }
+
+/*试卷标题样式*/
+.exam_title { height: 80px; line-height: 80px; text-align: center; }
+
+/*试卷信息样式*/
+.exam_message { padding: 10px 0 10px 88px; overflow: hidden; height: 30px; _height: 50px; background: url("../images/exam_message_bg.png") repeat-x 0 0 scroll transparent; }
+.exam_message span { display: inline-block; height: 20px; _height: 30px; line-height: 20px; font-size: 13px; float: left; padding-top: 10px; }
+.result_message { float: left; overflow: hidden; }
+.result_message p { float: left; display: inline-block; font-size: 26px; line-height: 30px; height: 30px;  }
+
+/*考题样式*/
+.questions_contain { padding: 0 24px 60px; margin: 0 24px; border-bottom: solid 3px #30b2fe; }
+
+/*试题分类标题*/
+.sort_0 { background: url("../images/sort_0.png") no-repeat 0 0 scroll transparent; }
+.sort_1 { background: url("../images/sort_1.png") no-repeat 0 0 scroll transparent; }
+.sort_2 { background: url("../images/sort_2.png") no-repeat 0 0 scroll transparent; }
+
+/*题型分类标题*/
+.questions_sort_title { margin: 25px 0 0; padding: 0 0 0 160px; height: 40px; }
+.questions_sort_title_content { padding: 8px 0 0 10px; overflow: hidden; background: url("../images/sort.png") repeat-x 0 0 scroll transparent; height: 32px; line-height: 32px; font-size: 13px; }
+.questions_sort_title_content span { float: left; }
+.questions_list { list-style: none; }
+.questions_list_li { border: solid 1px #fff; padding: 1px; }
+.questions_list_li_hover { border: solid 1px #09f; padding: 1px; }
+.question_list { padding: 25px 40px; list-style: none; min-height: 10px; _height: 10px; }
+.question_list li { overflow: hidden; min-height: 26px; _height: 26px; }
+.question_list li span { float: left; display: inline-block; min-height: 26px; _height: 26px; line-height: 26px; font-size: 13px; }
+
+/*试题页面答案样式*/
+.answer_contain { padding: 0 0 0 40px; overflow: hidden; background-color: #f0f0f0; *height: 34px; _height: 34px; }
+.answer_contain span, .answer_contain ul { float: left; }
+.answer_contain span { display: inline-block; height: 34px; line-height: 34px; font-size: 16px; }
+.answer_list { list-style: none; overflow: hidden; padding-top: 4px; }
+.answer_list li { float: left; display: inline-block; height: 26px; line-height: 26px; width: 34px; _width: 34px; padding-left: 36px; margin-left: 10px; *margin-left: 5px; _margin-left: 5px; }
+.answer_nochecked { background: url("../images/button_0.png") no-repeat -149px -2px scroll transparent; }
+.answer_hover { background: url("../images/button_0.png") no-repeat -76px -2px scroll transparent; }
+.answer_checked { background: url("../images/button_0.png") no-repeat -2px -2px scroll transparent; }
+.answer_checkbox_content { display: none; }
+
+/*答案页面答案样式*/
+.result_contain { padding-left: 86px; height: 63px; _height: 63px; }
+.result_is_wr { background: url("../images/answer_n_btn.png") no-repeat scroll 0 0 transparent; }
+.result_is_rt { background: url("../images/answer_n_btn.png") no-repeat scroll 0 -63px transparent; }
+.result_list { list-style: none; padding: 9px 0 10px; *height: 44px; _height: 44px; background: url("../images/result_bg.png") repeat-x scroll 0 0 transparent; border-right: solid 1px #9be1ff; }
+.right_answer, .my_answer { height: 22px; line-height: 22px; font-size: 14px; font-weight: bold; }
+.right_answer { color: #f00; }
+.my_answer { color: #04a1c3; }
+
+/*提交提示信息*/
+.message_contain { height: 48px; line-height: 48px; font-size: 12px; text-align: center; }
+
+/*提交与返回按钮*/
+.main_button { width: 185px; height: 47px; margin: 0 auto; }
+.save_exam { background: url("../images/answer_n_btn.png") no-repeat scroll -1px -220px transparent; }
+.save_exam_hover { background: url("../images/answer_n_btn.png") no-repeat scroll -1px -267px transparent; }
+.has_message { padding: 0 0 48px; text-align: center; }
+.return_exam { background: url("../images/answer_n_btn.png") no-repeat scroll 0 -126px transparent; }
+.return_exam_hover { background: url("../images/answer_n_btn.png") no-repeat scroll 0 -173px transparent; }
+.no_message { padding: 48px 0; }
+
+/*页面页脚*/
+.footer_list { list-style: none; }
+.footer_list li { text-align: center; height: 20px; line-height: 20px; font-size: 12px; color: #454545; }
+.footer_list li span { color: #06f; }
+
+/*右侧倒计时*/
+.last_time { position: fixed; left: 50%; top: 100px; margin-left: 390px; height: 225px; width: 150px; _position: absolute; _bottom: auto; _top:expression(eval(document.documentElement.scrollTop) + 100); }
+.date_animation { list-style: none; padding: 44px 27px 0; overflow: hidden; height: 181px; _height: 225px; background: url("../images/last_time_bg.png") no-repeat scroll 0 0 transparent; _behavior: url("../../sytles/exam/js/iepngfix.htc"); }
+.date_animation li { float: left; }
+.num_top { height: 28px; }
+.num_bottom { height: 23px; }
+.num_left { width: 21px; }
+.num_right { width: 20px; }
+.right_btn_contain { width: 100%; margin-top: -100px; text-align: center; }
+.right_btn { display: block; height: 29px; margin: 0 auto 10px; width: 82px; }
+.right_save {background: url("../images/right_btn.png") no-repeat scroll 0 0 transparent;  }
+.right_submit { background: url("../images/right_btn.png") no-repeat scroll 0 -58px transparent; }
+.right_submit_hover { background: url("../images/right_btn.png") no-repeat scroll 0 -87px transparent; }
+.right_save_hover { background: url("../images/right_btn.png") no-repeat scroll 0 -29px transparent; }
+
+#return_id {
+	height: 30px; font-size: 14px; font-weight: bold; color: #fff; padding: 0 15px; background-color: #ff7e32; border: solid 1px #ccc; border-radius: 3px; cursor: pointer;
+}

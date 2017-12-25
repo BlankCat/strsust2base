@@ -1,0 +1,71 @@
+/*公共样式*/
+*{padding:0;margin:0;font-size:12px;font-family: '宋体'; }
+.hidden{display:none;}
+body{background:#f7f7f7;}
+a{text-decoration:none;outline:none;}
+ul{ list-style: none; }
+img{ border: 0; }
+time{ font-family: Helvetica; }
+.container{width:960px;margin:0 auto;}
+.float_box{ display: table;overflow: hidden; }
+.f_l{ float: left; }
+.f_r{ float: left;padding-left:15px }
+.pb10{ padding-bottom: 10px; }
+.pt10{ padding-top: 10px; }
+.pt30{ padding-top: 30px; }
+.dotted-top-hr{ width: 100%;border-top: dotted 1px #d1d1d1; }
+.dotted-bottom-hr{ width: 100%;border-bottom: dotted 1px #d1d1d1; }
+
+/*导航菜单小三角*/
+.triangle_i{ width: 7px;height: 4px;display: inline-block;padding: 0 4px 3px;line-height: 0;font-size: 0; }
+.triangle_i1, .triangle_i2, .triangle_i3, .triangle_i4{ background-color: #4981ff;margin: 0 auto;height: 1px;line-height: 0;display: block; }
+.triangle_i1{ width: 7px; }
+.triangle_i2{ width: 5px; }
+.triangle_i3{ width: 3px; }
+.triangle_i4{ width: 1px; }
+
+/*头部*/
+.header{ background-color: #000;height: 30px;border-bottom: solid 3px #4981ff;position: fixed;width: 100%;z-index: 19999; }
+.left_menu_list, .right_menu_list{  }
+.left_menu_list{ float: left;width: 50%; }
+.right_menu_list{ float: right;width: 45%; }
+.lf_menu_li{ float: left;border-right: solid 1px #777;padding: 0 10px;height: 13px;line-height: 13px;margin-top: 8px;_margin-top: 4px; }
+.lf_menu_li.first{ padding-left: 0; }
+.lf_menu_li.last{ border-right: 0; }
+.lf_menu_li .nav_l_a{ display: inline-block;color: #fff; }
+.rt_menu_li{ float: right;padding: 0 10px;height: 13px;line-height: 13px;margin-top: 8px;_margin-top: 4px; }
+.rt_menu_li.last{ border-left: solid 1px #777;padding-right: 0; }
+.rt_menu_li .search{ background: url("../images/search-ic.png") no-repeat 0 0;color: #4981ff;display: inline-block;padding-left: 18px; }
+.rt_menu_li .nav_l_a{ display: inline-block;color: #fff; }
+.rt_menu_li.first .nav_l_a{ height: 13px; }
+.rt_menu_li.first{ padding-bottom: 5px; }
+.rt_menu_li.first .nav_l_a span{ display: inline-block; }
+
+.son_menu_list{ background-color: #000;border-bottom: solid 3px #4981ff;margin-left: -15px;margin-top: 2px;*margin: 18px 0 0 -74px;position: absolute;padding: 10px 0;width: 120px;z-index: 8888; }
+.son_menu_list li a{ color: #eee;display: block;height: 28px;line-height: 28px;overflow: hidden;padding: 0 15px; }
+.son_menu_list li a:hover{ background-color: #222;height: 30px;line-height: 30px; }
+
+/*友情链接*/
+.friendly-link{background-color:#3b3b3b;height:41px;line-height:41px;text-align:center;font-size:0;}
+.friendly-link a{text-decoration:none;color:#fff;display:inline-block;margin:0 30px;}
+
+/*footer底部*/
+.footer{background-color:#1c1cff;padding:18px 0 0;height:90px;color:#fff;line-height:25px;}
+.footer-left{float:left;width:49%;text-align:left;}
+.footer-right{float:right;width:49%;text-align:right;}
+
+.h-filter{filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80;}
+
+/*追加*/
+#serviceBox{ position: fixed;_position: absolute;right: 2px;top: 120px;z-index: 100;width: 130px; }
+#serviceBox .ctn-top{ border: solid 1px #ccc;background-color: #fff; }
+#serviceBox .ctn-top h1{ cursor: pointer;height: 38px;line-height: 38px;text-align: center;font-family: 'microsoft yahei','微软雅黑';font-size: 16px;background: url("../images/service-title-bg.png") no-repeat scroll center bottom transparent; }
+#serviceBox .ctn-top .list-box{ text-align: center;padding-bottom: 10px; }
+#serviceBox .ctn-top .list-box h3{ padding-top: 3px;height: 24px;line-height: 24px;overflow: hidden; }
+#serviceBox .ctn-top .list-box ul li{ padding-bottom: 2px; }
+#serviceBox .ctn-top .list-box ul li span{ font-family: Arial;color: #0da4cf; }
+#serviceBox .ctn-top .list-box ul li a{ color: #0da4cf; }
+#serviceBox .ctn-top .list-box ul li a:hover{ text-decoration: underline; }
+#serviceBox .ctn-btm{ padding: 0 2px; }
+#serviceBox .ctn-btm a{ height: 29px;width: 126px;display: inline-block;background: url("../images/service-btm-btn-bg.png") no-repeat scroll 0 0 transparent; }
+#serviceBox .ctn-btm a:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }

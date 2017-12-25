@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0;padding:0; color:#696969;}
+a{text-decoration:none; cursor:pointer;}
+ul{ list-style:none;}
+img{ border:none;}
+body{ background:url(../images/bg_bg.jpg) top repeat-x;}
+
+.all{ width:100%; margin:0 auto;}
+.top{width:100%; height:80px;  background:#FFFFFF;margin:0 auto;}
+
+.top_n{width:1000px; height:80px; margin:0 auto;}
+.logo{ float:left; width:500px; height:80px;}
+.phon{ float:right; width:260px; height:80px;}
+
+
+/*center*/
+.center{ width:1000px; height:410px; margin:0 auto; background:url(../images/c_bg.jpg) top center no-repeat;}
+.dl_k{ width:528px; height:324px; float:right; background:url(../images/dl_bg.png) center top no-repeat; margin-top:30px;}
+.dl_n{ width:450px; height:240px; float:left; margin-top:20px; margin-left:38px;_margin-top:50px; _margin-left:15px;}
+
+.dl_nz{ width:450px; height:60px; float:left;}
+.dl_nz h4{ width:100%;font:20px/35px "微软雅黑"; text-align:center; height:45px;}
+.dl_nz .dl_nl{ width:100px; height:40px; font:14px/35px "微软雅黑"; text-align:right;float:left;}
+.dl_nz .dl_nr{ width:330px; height:40px;text-align:left;float:left;}
+.r_wj{ float:right; font:12px/35px "宋体"; margin-right:25px;}
+	.r_wj a:link{ text-decoration:none;color:#0062BF;}
+	.r_wj a:visited{ text-decoration:none;color:#0062BF;}
+	.r_wj a:hover{color:#F38218;text-decoration:underline;}
+.r_jz{ float:left; font:12px/35px "宋体";color:#0062BF;}
+.r_jz span{ float:left; margin-top:11px;}
+
+/*文本框样式*/
+.zc_inp{border:#D4D4D4 solid 1px; width:300px; height:30px;font-size:100%;vertical-align:middle; font:14px/28px "微软雅黑";-moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */ }
+.zc_botm{ width:300px; height:34px;font-size:100%;vertical-align:middle; background:#0062BF; border:none; color:#FFFFFF; text-align:center; font-family:"微软雅黑"; font-size:16px; cursor:pointer;-moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */ }
+.zc_botm:hover{ background:#0057A6;}
+
+.jion{width:400px; height:50px; line-height:50px; text-align:right; float:left; margin-top:40px; font:12px/50px "宋体"; }
+.sq{font-family:"微软雅黑"; font-size:20px; color:#0062BF; }
+
+	.sq a:link{ text-decoration:none;color:#0062BF;}
+	.sq a:visited{ text-decoration:none;color:#0062BF;}
+	.sq a:hover{color:#0062BF;text-decoration:none;}
+
+/*ad*/
+.ad{ width:1000px; height:120px; margin:0 auto;}
+.ad ul{ width:100%; height:120px;}
+.ad ul li{ float:left; width:250px; height:120px;}
+.ad ul li img{ float:left; width:235px; height:100px;}
+
+
+/*底部*/
+.dow{ width:100%; height:60px; margin:0 auto;}
+.dow .dow_a{ width:1000px; margin:5px auto;text-align:center;line-height:25px; font-size:12px; font-family:"宋体"; color:#696969;}
+
+/*开发增加*/
+.zc_validate_code{width:230px;}
+.code_img{vertical-align:middle;}

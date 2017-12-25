@@ -1,0 +1,93 @@
+.gridTable {
+	margin: 0;
+	padding: 8px 0 0 0;
+}
+
+/** grid body */
+.gridBody {
+	border-right: 1px solid #62acd1;
+	border-top: 1px solid #62acd1;
+	font-size: 12px;
+}
+.gridBody th {
+	border-left: 1px solid #62acd1;
+	border-bottom: 1px solid #62acd1;
+	vertical-align: middle;
+	background-color: #c2dff9;
+	padding:0 10px 0 0;
+	color:#666600;
+	height: 25px;
+	font-size: 12px;
+}
+.gridBody td {
+	border-left: 1px solid #62acd1;
+	border-bottom: 1px solid #62acd1;
+	color: black;
+	font-size: 12px;
+	padding-left:3px;
+}
+
+/** grid header sort */
+.gridBody th.sort {
+	
+}
+.gridBody th.sort.da {
+	background:url(images/sort_ad02.png) center right no-repeat
+}
+.gridBody th.sort.desc {
+	background:#c5c5c5 url(images/sort_desc.png) center right no-repeat
+}
+.gridBody th.sort.asc {
+	background:#c5c5c5 url(images/sort_asc.png) center right no-repeat
+}
+
+/** mouse hove over sort header */
+.gridBody .tableHeaderSortHover {
+	background-color: #f5f5f5 !important;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/** gridBody row colors */
+.gridBody .odd {
+	background-color: #FFFFFF;
+}
+.gridBody .even {
+	background-color: #F8F8F8;
+}
+.gridBody .highlight {
+	background-color: #fdeccf !important;
+}
+
+/** grid toolbar */
+.gridToolbar .leftControls {
+}
+.gridToolbar .paginationControls .buttonLabel{
+	margin:0 0 0 12px
+}
+.gridToolbar .box div {
+	display:inline;
+	float:left;
+}
+.gridToolbar .box .paginationControls {
+	float:right;
+}
+.gridToolbar td{
+	background-color: #F4F4F4;
+}
+
+.gridBody .odd a, .even a {
+	font-size: 12px;
+	color: 005C9C !important;
+}
+
+<!---->
+.page { clear:both; display:block; width:auto }
+.page ul { margin:10px auto; width:280px }
+.page li { width:20px; height:18px; overflow:hidden; float:left; margin-right:5px; text-align:center; line-height:16px }
+.page li a { display:block; border:1px solid #57a0f1; background:#fff; color:#333; height:auto; width:auto; text-decoration:none }
+.page li a:hover, .page li.hover a { color:#fff; background:#4084ca; border-color:#0c3cbc }
+.page li.one, .page li.end { width:58px; height:18px; background:url(../images/user_bg.png) -770px -184px no-repeat; color:#9a9a9a; text-align:left; text-indent:14px; line-height:18px }
+.page li.end { background-position:-828px -184px; text-indent:8px }
+.page li.one a, .page li.end a, .page li.one a:hover, .page li.end a:hover{ background:url(../images/user_bg.png) -770px -166px no-repeat; display:block; width:auto; height:18px; color:#333; text-decoration:none; border:0 }
+.page li.end a,.page li.end a:hover{ background-position:-828px -166px; text-indent:8px }

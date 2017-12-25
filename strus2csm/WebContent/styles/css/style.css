@@ -1,0 +1,106 @@
+body { text-align:center; font-family:\5B8B\4F53, Arial Narrow, arial, serif; background:#f5f5f5; font-size:12px; color:#000 }
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, form, input, p { padding:0; margin:0 }
+table, td, tr, th { font-size:12px }
+li, ul { list-style-type:none }
+table { margin:0 auto; border-collapse:collapse }
+img { vertical-align:top; border:0 }
+ul { list-style:none }
+a:active, a:focus { outline:none }
+h1, h2, h3, h4, h5, h6 { font-size:12px; font-weight:normal }
+.clear { }
+.clear:after { clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"." }
+a { color:#333; text-decoration:none }
+a:visited { color:#333; text-decoration:none }
+a:hover { color:#333; text-decoration:underline }
+a:active { color:#333 }
+#top { width:100%; height:100px; _height:102px; margin:0px auto; background:url(../images/test.jpg) 0 0 repeat-x; position:relative }
+#top span { position:absolute; color:#fff; top:30px; left:300px }
+#top span a { color:#fff }
+#top p { position:absolute; top:30px; right:120px; color:#fff; word-spacing:5px; width:980px;text-align:right; }
+#top p a { color:#fff }
+#top .dh { width:100%; height:22px; position:absolute; bottom:0; left:0; background:url(../images/dhbg.jpg) repeat-x; line-height:22px }
+#top .dhlf { float:left; display:inline; padding-left:30px }
+#top .dhrt { float:right; padding-right:8px; line-height:22px; height:22px; word-spacing:15px; color:#666 }
+#top .dhrt img { vertical-align:middle }
+#dh2 { width:100%; margin-top:8px; line-height:24px; height:24px; background-image:url(../images/1.22.jpg); background-repeat:repeat-x }
+#dh2 .left { margin-left: 0px; font-size: 11px; text-align: right; width: 55%; color:#fff; float:left }
+#dh2 .rig { float:right }
+.sdmenu { width: 200px; font-family: Arial, sans-serif; font-size: 12px; padding-bottom: 10px; background: url(../images/bottom.gif) no-repeat right bottom; color: #fff; }
+.sdmenu div { background: url(../images/title.gif) repeat-x; overflow: hidden; font-size:12px; color:#000000; }
+.sdmenu #setid { background: url(../images/toptitle.gif) no-repeat; }
+.sdmenu div.collapsed { height: 36px; }
+.sdmenu div span { display: block; padding: 10px 35px; font-weight: bold; font-size:14px; background: url(../images/expanded.gif) no-repeat 170px center; cursor:pointer; border-bottom: 1px solid #ddd; color:#000; text-align:left }
+.sdmenu div span a { color:#000; font-size:12px; }
+.sdmenu div span a:hover { color:#a00 }
+.sdmenu div.collapsed span { background-image: url(../images/collapsed.gif); }
+.sdmenu div a { padding: 5px 40px; background: #f5f5f5; display: block; font-size:13px; border-bottom: 1px solid #f1f1f1; border-right:1px solid #ddd; border-left:1px solid #ddd; color: #444; text-decoration: none; background : #fff url(../images/linkarrow2.gif) no-repeat 170px center; text-align:left }
+.sdmenu div a.current { background : #ccc; }
+.sdmenu div a:hover { background : #fff url(../images/linkarrow.gif) no-repeat 170px center; color: #a00; font-weight:bold; text-decoration: none; }
+/*---------------------������ʽ----------------------------------------*/
+
+
+.commer{clear:both; width:100%; background:#fff}
+.commer .com_tit{clear:both; height:25px; line-height:25px; text-indent:40px; text-align:left; background:url(icon6.gif) no-repeat 20px 5px; border:1px solid #ccc; width:98%; margin:10px auto}
+.comta{width:98%; clear:both; margin:0 auto; margin-top:15px}/*border:1px solid #666;*/
+.comta table{width:100%; border-spacing:spacing}
+.comta th{height:25px; line-height:25px; background:#e8e8e8; border:1px solid #fff}
+.comta td{height:25px; line-height:25px; border:1px solid #e8e8e8}
+.comcn{width:500px; clear:both;  margin:0 auto; margin-top:50px}/*border:1px solid #666;*/
+.comcn table{width:100%; border-spacing:spacing}
+/*
+.comcn caption{height:30px; text-align:center; line-height:30px; background:#e8e8e8; border:1px solid #fff; font-weight:bold}
+*/
+.comcn caption{ text-align: center;FONT-SIZE: 14px; COLOR: #f30; height: 35}
+.comcn th{height:25px; width:130px; text-align:right; line-height:25px; background:#e8e8e8; border:1px solid #fff; font-weight:bold}
+.comcn td{height:25px; line-height:25px; border:1px solid #e8e8e8; text-align:left; padding-left:5px}
+.comcn td.cen{text-align:center; height:30px}
+
+.commer .page{clear:both; margin-top:25px; height:20p; line-height:20px; word-spacing:10px}
+.commer .page span{word-spacing:0}
+.commer .page input, .commer .page img{vertical-align:middle}
+
+/*
+.commer{clear:both; width:100%; background:#fff}
+.commer .com_tit{clear:both; height:25px; line-height:25px; text-indent:40px; text-align:left; background:url(../images/icon6.gif) no-repeat 20px 5px; border-bottom:1px solid #ccc; width:100%;}
+.comta{width:88%; clear:both; border:1px solid #CCCCCC; margin:0 auto; margin-top:15px}
+.comta table{width:100%; border-spacing:spacing}
+.comta th{height:25px; line-height:25px; background-image:url(../images/th.gif); border:1px solid #fff; color:#1D5BA8;}
+.comta td{height:25px; line-height:25px; border:1px solid #e8e8e8}
+.comcn{width:400px; clear:both; border:1px solid #CCCCCC; margin:0 auto; margin-top:50px}
+.comcn table{width:100%; border-spacing:spacing}
+.comcn th{height:25px; line-height:25px; background:#e8e8e8; border:1px solid #fff; font-weight:bold;color:#1D5BA8;}
+.comcn td{height:25px; line-height:25px; border:1px solid #CCCCCC; text-align:left; padding-left:5px}
+.comcn td.cen{text-align:center; height:30px}
+
+.commer .page{clear:both; margin-top:25px; height:20p; line-height:20px; word-spacing:10px}
+.commer .page span{word-spacing:0}
+.commer .page input, .commer .page img{vertical-align:middle}
+*/
+.btn {background-color:#FFFFFF;border-color:#DCDCDC #666666 #666666 #DCDCDC;border-right:1px solid #666666;border-style:solid;border-width:1px;color:#CC0000;height:24px;width:100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,417 @@
+.sec_show {
+	display: show;
+}
+
+.sec_hide {
+	display: none;
+}
+
+.thd_show {
+	display: show;
+}
+
+.thd_hide {
+	display: none;
+}
+
+.less_suc, .collection_suc, .collection_fil,.collection_fil_money{
+	position: absolute;
+	border: 1px solid #333;
+	background: #ffffe1;
+	line-height: 50px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+	padding: 0 10px;
+	display: none;
+	z-index: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.less_suc{
+	width:140px;
+	height:53px;
+}
+.gou img{
+	width:21px;
+	heigth:15px;
+	margin-top:2px;
+	_margin-top:-5px;
+	margin-left:0px;
+	padding-top: 2px;
+	_padding-top:0px;
+	+margin-top:-7px;
+}
+.gou{
+	width:100%;
+	height:25px;
+	_height:25px;
+	float:left;
+	font-size:14px;
+	font-weight:700;
+	line-height: 30px;
+	_padding-top:10px;
+	text-align: left;
+}
+
+.less_suc a, .collection_suc a ,.collection_fil a,.collection_fil_money a, .collection_first a,collection_money a{
+	color: red;
+	font-size: 12px;
+	font-weight: normal;
+}
+.join{
+	width:100%;
+	height:25px;
+	text-align:right;
+	line-height: 27px;
+	margin-top:2px;
+	_margin-top:-10px;
+	background:url(../images/blue_btn.png) no-repeat right;
+	_background:url(../images/blue_btn.png) no-repeat right;
+	float:right;
+	z-index:99;
+}
+span.join a {
+	color: #fff!important;
+}
+body {
+	padding: 10px 20px 200px;
+}
+
+h1 {
+	color: #85B6E2;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#jyz {
+	width: 675px;
+}
+
+#updateShow {
+	z-index: 99;
+	position: absolute;
+	margin: -60px -150px;
+	width: 300px;
+	display: none;
+	height: 120px;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+}
+
+.blk {
+	width: 300px;
+	position: relative;
+}
+
+.blk .head,.blk .head-right,.blk .foot,.blk .foot-right {
+	background: url(../images/pop_up_bg.png);
+	overflow: hidden;
+	height: 4px;
+}
+
+.blk .head {
+	padding-left: 4px;
+}
+
+.blk .head-right {
+	background-position: right top;
+}
+
+.blk .foot {
+	padding-left: 4px;
+	background-position: left bottom;
+	_height: 3px;
+}
+
+.blk .foot-right {
+	background-position: right bottom;
+}
+
+.blk .main {
+	border-left: 2px solid #85B6E2;
+	border-right: 2px solid #85B6E2;
+	position: relative;
+	background: #fff;
+}
+
+.blk .main h2 {
+	font: bold 16px "Microsoft YaHei";
+	padding: 10px 20px 2px;
+	color: #85B6E2;
+}
+
+.blk .main ul {
+	padding: 20px;
+	zoom: 1;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.blk .main ul li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.blk .main ul li a {
+	color: #333;
+	display: block;
+}
+
+.blk .main ul li a:hover {
+	background: #85B6E2;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+body,ul,li,div,h1,h2 {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+
+.tj {
+	float: center;
+	margin-left: 200px
+}
+
+.left_nav_tit {
+	clear: both;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 10px;
+	height: 32px
+}
+
+
+.collection_suc,.collection_fil,.collection_fil_money {
+	width:117px;
+	height:62px;
+}
+.collection_suc{
+	_padding-top:15px;
+	_height:57px;
+}
+.choose_suc,.choose_fil {
+	width:100%;
+	_height:20px;
+	line-height: 40px;
+	font-size:14px;
+}
+.xk{
+	_margin-top:8px;
+	+margin-top:-5px;
+}
+.choose_suc img{
+	width:21px;
+	height:20px;
+	margin-left: -30px;
+	_margin-left: -23px;
+	padding-top: 10px;
+	_margin-top:-12px;
+	line-height: 20px;
+	+margin-top:-13px;
+	+margin-left:-15px;
+}
+.buzu{
+	_width:137px;
+	margin-left: 15px;
+	+margin-left: 0px;
+	_margin-left: 0px;
+	_margin-top:5px;
+}
+.choose_fil img{
+	width:13px;
+	height:16px;
+	_height:16px;
+	margin-left: -30px;
+	_margin-left: -15px;
+	+margin-left:-1px;
+	margin-top: 10px;
+	+margin-top:-2px;
+	_padding-top: 2px;
+	line-height: 20px;
+	+padding-top:-15px;
+}
+.after_choose,.after_fil {
+	width:100%;
+	margin-top: -28px;
+	float: left;
+	padding-top: 5px;
+}
+
+.czfq{
+	width:117px;
+	height:40px;
+	_height:35px;
+	margin-top: 2px;
+	_margin-top: 0px;
+	_margin-left:10px;
+}
+.sending{
+	width:50px;
+	height:19px;
+	_height:15px;
+	float:left;
+	margin-top:20px;
+	color:#fff;
+	_padding-top:8px;
+	_margin-top:15px;
+}
+.after_fil{
+	float:left;
+	width:55px;
+	height:19px;
+	_height:19px;
+	background:url(../images/xk_btn1.png) no-repeat right;
+	+margin-top:-28px;
+	line-height:15px;
+	_margin-top:-12px;
+}
+.giveups{
+	width:55px;
+	height:19px;
+	background:url(../images/xk_btn2.png) no-repeat right;
+	float:right;
+	line-height: 20px;
+	margin-top: -5px;
+	_margin-top: 12px;
+	_margin-left:6px;
+	color:#fff;
+	_padding-top:3px;
+	z-index:99;
+}
+.giveups a, span.after_fil a{
+	color:#fff!important;
+}
+.liscon{
+	width:117px;
+	height:40px;
+	margin-top: 2px;
+	+margin-top:10px;
+}
+.listens{
+	float:left;
+	width:55px;
+	height:19px;
+	background:url(../images/xk_btn1.png) no-repeat right;
+	line-height: 20px;
+	margin-top:15px;
+	_margin-top:28px;
+	z-index:99;
+}
+.contis{
+	width:55px;
+	height:19px;
+	background:url(../images/xk_btn2.png) no-repeat right;
+	float:right;
+	line-height: 20px;
+	margin-top:15px;
+	_margin-top:28px;
+	z-index:99;
+}
+.listens a,.contis a{
+	color:#fff!important;
+}
+a:hover{
+	text-decoration:none!important;
+}
+
+.collection_first{
+	width:220px;
+	height:60px;
+	position: absolute;
+	border: 1px solid #333;
+	background: #ffffe1;
+	color: #333;
+	display: none;
+	z-index: 20;
+	font-size: 14px;
+	font-weight: bold;
+}
+ .collection_money{
+	width:220px;
+	height:60px;
+	position: absolute;
+	border: 1px solid #333;
+	background: #ffffe1;
+	color: #333;
+	display: none;
+	z-index: 20;
+	font-size: 14px;
+	font-weight: bold;
+} 
+.yue{
+	width:auto;
+	height:25px;
+	text-align:left;
+	padding-top:8px;
+	padding-left:15px;
+}
+.yue .left{
+	font-size:14px;
+}
+.xz_btn{
+	width:auto;
+	height:30px;
+	_height:25px;
+	text-align:left;
+	padding-left:15px;
+	line-height:18px;
+}
+.xz_btn .giveup{
+	display:inline-block;
+	width:39px;
+	height:19px;
+	background:url(../images/giveup_btn.gif) no-repeat;	
+	text-align:center;
+	padding-top:0px;
+	color:#fff!important;
+	_padding-top:3px;
+}
+.sure{
+	display:inline-block;
+	width:39px;
+	height:19px;
+	background:url(../images/confirm_btn.gif) no-repeat;
+	text-align:center;
+	padding-top:0px;
+	color:#fff!important;
+	_padding-top:3px;
+}
+.sure-money{
+	display:inline-block;
+	width:39px;
+	height:19px;
+	background:url(../images/confirm_btn.gif) no-repeat;
+	text-align:center;
+	padding-top:0px;
+	color:#fff!important;
+	_padding-top:3px;
+}
+.jiantou img{
+	margin-top:5px;
+}
+.blaes{
+	+color:#16387c!important;	
+}
+

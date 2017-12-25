@@ -1,0 +1,4 @@
+.titleLine { height: 26px; margin: 10px auto 2px; line-height: 26px; font-size: 18px; font-weight: bold; width: 60%; text-align: center; color: #444; }
+.emptyMessage { line-height: 24px; color: #e93; }
+.btnLine { overflow: hidden; margin: 5px auto; height: 24px; }
+.btnLine > input { float: left; margin-right: 20px; *margin-right: 10px; _margin-right: 10px; }

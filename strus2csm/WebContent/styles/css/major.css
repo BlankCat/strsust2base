@@ -1,0 +1,75 @@
+.top_banner{ background: url("../images/major/top_banner.png") no-repeat center bottom #96b9ff;height: 347px;padding-top: 182px;width: 100%; }
+.title1{ background: url("../images/major/title1.png") no-repeat center bottom;padding-top: 10px;height: 85px;width: 100%; }
+
+.main_ctn{ padding: 27px 0 40px; }
+.main_wrapper{ width: 100%; }
+
+.main_left{ float: left;width: 314px; }
+
+.left_menu_list{ padding: 0 0 38px; }
+.left_menu_list li{ background: url("../images/major/lf_menu_bg.png") no-repeat 0 -47px transparent;height: 35px;padding: 0 0 12px 16px; }
+.left_menu_list li.selected{ background-position: 0 0; }
+.left_menu_list li.last{ padding-bottom: 0; }
+.left_menu_list li a{ color: #626262; }
+.left_menu_list li a:hover{ filter:Alpha(Opacity=70);-moz-opacity:.70;opacity:0.70; }
+.left_menu_list li.selected a{ color: #fff; }
+.left_menu_list li.selected a:hover{ filter:Alpha(Opacity=100);-moz-opacity:1.00;opacity:1.00; }
+.left_menu_list li a{ display: block;padding: 0 20px; }
+.left_menu_list li a span{ display: inline-block;line-height: 35px;vertical-align: middle; }
+.left_menu_list li a span.normal{ font-size: 14px; }
+.left_menu_list li a span.strong{ font-size: 16px;font-style: italic;font-weight: bold;padding: 0 6px;font-family: '微软雅黑','microsoft yahei'; }
+
+.small_title1{ background: url("../images/major/small_title1.png") no-repeat -2px 0 transparent;height: 30px;width: 100%; }
+.recommend_lesson_list{ width: 251px;padding: 16px 0; }
+.recommend_lesson_list li{ padding-bottom: 20px; }
+.recommend_lesson_list li .lesson_photo{ display: block;line-height: 0; }
+.recommend_lesson_list li .lesson_photo img{ height: 157px;width: 251px;line-height: 15px; }
+.recommend_lesson_list li .lesson_name{ display: inline-block;font-size: 14px;font-weight: bold;margin: 10px 0; }
+.recommend_lesson_list li p{ height: 48px;line-height: 24px;overflow: hidden;color: #626262; }
+
+.main_right{ background: url("../images/major/ctn_rt_bg.png") repeat-y 0 0 transparent;color: #626262;float: right;padding: 12px;width: 618px; }
+
+.major_intro{ width: 100%;padding-bottom: 5px; }
+.major_img{ float: left;padding-right: 25px;width: 196px;height: 196px;overflow: hidden; }
+.major_img img{ border: solid 1px #ddd;width: 194px; }
+.major_img_big{ background-color: #fff;border: solid 1px #999\0;border-radius: 4px;box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);height: 450px;line-height: 0;*margin: 0 0 0 -221px;overflow: hidden;position: absolute;width: 450px;z-index: 1000; }
+.major_img_big img{ height: 100%;line-height: 25px;width: 100%; }
+.major_intro h2{ color: #333;font-family: '微软雅黑','microsoft yahei';font-size: 19px; }
+.important_info{ padding: 15px 0; }
+.important_info .buy_now{ background: url("../images/major/btn_big_blue.png") no-repeat 0 0 transparent;color: #fff;display: inline-block;font-size: 15px;height: 29px;line-height: 29px;position: absolute;margin: 15px 140px;text-align: center;width: 101px; }
+.important_info .buy_now:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.important_info p{ line-height: 24px;font-size: 14px; }
+.dabble_hr{ border: 0;border-top: solid 1px #d6d6d6;padding-bottom: 1px;background-color: #fff; }
+.main_intro{ padding: 10px;line-height: 22px; }
+.main_intro p{ text-indent: 2em; }
+
+.tab_list{ background: url("../images/major/tab_line_bg.png") repeat-x 0 0 transparent;height: 35px;padding: 0 26px; }
+.tab_list li{ height: 35px;line-height: 35px;width: 105px;float: left; }
+.tab_list li a{ color: #626262;display: block;font-size: 14px;font-weight: bold;text-align: center; }
+.tab_list li a.selected{ background: url("../images/major/tab_light_bg.png") no-repeat 0 0 transparent;color: #00f; }
+
+.lesson_contents{ padding: 20px 26px; }
+.lesson_contents .h3{ font-size: 14px;font-weight: normal;line-height: 30px; }
+.lesson_contents .contexts{ max-height: 66px;line-height: 22px;margin: 8px 0; }
+.lesson_contents .contexts a{ color: #00f; }
+.lesson_contents .contexts p{ text-indent: 2em; }
+.lesson_contents .contents_list{ padding: 5px 0; }
+.lesson_contents .contents_list li{ line-height: 24px;list-style-image: url("../images/major/blue.png");margin: 0 0 0 58px; }
+.contents_paragraph{padding: 10px;overflow-x: hidden;overflow-y: auto;line-height: 20px;}
+.contents_paragraph p{ text-indent: 2em;padding-bottom: 10px; }
+
+.teacher_intro{ padding: 18px 0; }
+.teacher_intro .teacher_list{ width: 100%;padding: 0 0 80px;overflow: visible;display: table; }
+.teacher_intro .teacher_list li{ float: left;height: 165px;width: 154px; }
+.teacher_intro .teacher_list li .card_wrapper{ background-color: #fff;margin: 3px auto 0;border: solid 1px #f0f0f0;overflow: hidden;width: 142px;box-shadow: 1px 1px 1px rgba(0,0,0,0.03); }
+.teacher_intro .teacher_list li .card_wrapper.hover{ border: solid 1px #ccc;margin-top: 0;padding: 3px 3px 10px;box-shadow: 2px 2px 3px rgba(0,0,0,0.4);position: relative;z-index: 100; }
+.photo_box{ padding: 1px;background: #fff;line-height: 0;height: 100px;width: 140px; }
+.photo_box img{ height: 100px;line-height: 20px;width: 140px; }
+.info_box{ background-color: #fff;margin: 0 5px 4px; }
+.info_box p{ line-height: 18px;margin: 4px 0 0; }
+.info_box p.art{ max-height: 150px;overflow-y: auto; }
+.lawyer_name{ height: 18px;overflow: hidden;color: #00f; }
+.lawyer_work{ height: 18px;overflow: hidden; }
+.teacher_intro .teacher_list li .card_wrapper.hover .lawyer_work{ height: auto;max-height: 150px;overflow-x: hidden;overflow-y: auto; }
+
+

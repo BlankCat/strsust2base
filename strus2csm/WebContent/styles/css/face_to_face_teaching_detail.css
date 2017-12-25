@@ -1,0 +1,140 @@
+/*logo样式*/
+.logo_contain{ border-bottom: solid 1px #ccc;height: 50px;padding-top: 33px; *padding-top: 0;}
+.logo_contain .logo_link{ display: inline-block;margin-top: 6px;line-height: 38px;height: 38px;font-size: 19px;font-weight: bold;color: #555;*padding-left:195px;  }
+
+/*课程介绍*/
+#zzz{*margin-left:195px;}
+.db{*margin-left:200px;}
+.container-wrapper{ border-top: solid 1px #fff;padding: 30px 0;}
+.contain-left{ width: 580px; !important;height:auto;min-height:1200px;}
+.contain-left h1{ color: #1b1b1b;font-family: '微软雅黑','microsoft yahei';font-size: 22px;font-weight: normal;padding-bottom: 20px; }
+
+/*测试--上线前予以删除!!!!!*/
+.contain-left h2{ color: #0072bc;font-family: '微软雅黑','microsoft yahei';font-style: italic;font-size: 18px;font-weight: normal;padding: 20px 0 10px; }
+.contain-left div{ padding-left: 40px; }
+.contain-left h2 p{color:#0072bc;font-size:18px;font-family: '微软雅黑','microsoft yahei';}
+.contain-left p{ line-height: 28px;color: #454545; }
+.contain-left .p-1{ text-indent: 2em; }
+/*测试--上线前予以删除!!!!!*/
+
+
+.contain-right{ width: 340px; position:absolute;top:110px;left:830px;}
+.contain-right .msg-box{  }
+.contain-right .msg-box .msg-line{ line-height: 30px; }
+.contain-right .msg-box .msg-line label{ color: #0338f0;float: left;font-size: 14px;font-weight: bold;width: 45px; }
+.contain-right .msg-box .msg-line p{ color: #454545;float: left;font-size: 14px;width:290px; }
+.contain-right .msg-box .apply-count{ color: #929292;font-size: 14px;padding: 10px 0; }
+.contain-right .msg-box .apply-count strong{ color: #0158d0;font-size: 25px;font-family: Arial;vertical-align: middle; }
+.contain-right .msg-box .btn-box{ padding: 10px 0 15px; }
+.contain-right .msg-box .btn-box .btn,
+.contain-right .msg-box .btn-box .forword,
+.contain-right .msg-box .btn-box .wb-i{ float: left; }
+.contain-right .msg-box .btn-box .btn{ background: url("../images/face_to_face_teaching_detail/btn_big_blue.png") no-repeat scroll 0 0 transparent;height: 29px;line-height: 29px;width: 100px;text-align: center;color: #fff;font-size: 16px;display: inline-block;margin-right: 10px;_margin-right: 10px;font-family: '微软雅黑','microsoft yahei'; }
+.contain-right .msg-box .btn-box .btn02{ background: url("../images/face_to_face_teaching_detail/btn_big_green.png") no-repeat scroll 0 0 transparent;height: 29px;line-height: 29px;width: 100px;text-align: center;color: #fff;font-size: 16px;display: inline-block;margin-right: 10px;_margin-right: 10px;font-family: '微软雅黑','microsoft yahei'; }
+.contain-right .msg-box .btn-box .btn:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.contain-right .msg-box .btn-box .forword{ height: 29px;line-height: 29px;display: inline-block; }
+.contain-right .msg-box .btn-box .wb-i{ height: 16px;padding: 6px;width: 16px; }
+.contain-right .msg-box .count_down{ color: #454545;font-size: 14px;padding: 10px 0; }
+.contain-right .msg-box .count_down strong{ color: #d60011;font-size: 22px;font-family: Arial;vertical-align: middle; }
+
+
+/*tabs模块*/
+.tabs-block{ padding: 15px 0; }
+.tabs-title-box{/*  border-bottom: solid 1px #d5d5d5; */height: 28px;line-height: 28px;overflow: visible; }
+.tabs-title-list{ width: 300px; }
+.tabs-title-list li{ float: left;padding-right: 8px;height: 28px;width: 106px; }
+.tabs-title-list li a{
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: '微软雅黑','microsoft yahei';
+	text-align: center;
+	width: 104px;
+	border: solid 1px #d5d5d5;
+	background-color: #f3f3f3;
+	color: #7d7d7d;
+	position: absolute;
+	z-index: 5;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcdcdc', endColorstr='#F7F7F7'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#f7f7f7)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,#dcdcdc,#f7f7f7);/* for firefox 3.6+ */
+	background: url("../images/my_lesson/tab-selected-bg.png") repeat-x scroll 0 0 transparent\9;
+}
+.tabs-title-list li a.normal:hover{ color: #434343; }
+.tabs-title-list li a.selected{ border-color: #d5d5d5 #d5d5d5 #f7f7f7 #d5d5d5;color: #000; }
+/*tabs-container*/
+.tabs-container{ padding-top: 10px; }
+.tab-content{  }
+/*报名咨询*/
+.question_n_answer_list{ border: solid 1px #ededf2;background-color: #f4f5f5;border-radius: 3px;padding: 10px 20px; }
+.question_n_answer_list li{ padding: 10px 0 15px;border-top: dotted 1px #ccc; }
+.question_n_answer_list li.first{ padding-top: 0;border-top: 0 none; }
+.question_n_answer_list li .aside-msg{ color: #929292;line-height: 28px; }
+.question_n_answer_list li .aside-msg span,
+.question_n_answer_list li .aside-msg time{ font-family: Arial; }
+.question_n_answer_list li .question,
+.question_n_answer_list li .answer{ width: 100%; }
+.question_n_answer_list li .question{ color: #333; }
+.question_n_answer_list li .answer{ color: #0062c4; }
+.question_n_answer_list li .question label,
+.question_n_answer_list li .question p,
+.question_n_answer_list li .answer label,
+.question_n_answer_list li .answer p{ float: left;line-height: 22px; }
+.question_n_answer_list li .question label,
+.question_n_answer_list li .answer label{ width: 24px; }
+.question_n_answer_list li .question p,
+.question_n_answer_list li .answer p{ width: 264px;overflow: hidden; }
+/*学友互动*/
+
+
+
+/*********************************************************************************************/
+
+.r-list1{ padding: 0 5px; }
+.r-list1 li{ padding: 15px 0;border-top: dotted 1px #ccc; }
+.r-list1 li.first{ border-top: 0 none; }
+.r-list1 li .ele-top{ width: 100%;padding-bottom: 10px; }
+.r-list1 li .ele-top .photo-box{ height: 65px;line-height: 65px;width: 65px; }
+.r-list1 li .ele-top .photo-box img{ height: 100%;width: 100%; }
+.r-list1 li .ele-top .context-box{ width: 170px; }
+.r-list1 li .ele-top .context-box div{ height: 24px;line-height: 24px;overflow: hidden; }
+.r-list1 li .ele-top .context-box div a{ color: #636363; }
+.r-list1 li .ele-top .context-box div a:hover{ text-decoration: underline; }
+.r-list1 li .ele-top .context-box p{ color: #929292;line-height: 20px;overflow: hidden; }
+.r-list1 li .ele-bottom h5{ font-size: 14px;line-height: 24px;color: #636363; }
+.r-list1 li .ele-bottom p{ line-height: 24px;color: #929292; }
+.r-list1 li .ele-bottom p span{ font-family: Arial;display: inline-block;padding: 0 5px;color: #0941fb; }
+.r-list1 li .ele-bottom p a{ background: url("../images/face_to_face_teaching/btn-s-blue-bg.png") no-repeat scroll 0 0 transparent;color: #fff;display: inline-block;height: 21px;line-height: 21px;width: 72px;text-align: center;position: absolute;margin-left: 170px; }
+.r-list1 li .ele-bottom p a:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+.r-list2{ padding: 0 5px; }
+.r-list2 li{ padding: 15px 0 5px; }
+.r-list2 li .image-box{ padding-bottom: 10px; }
+.r-list2 li .image-box img{ width: 250px;height: 157px; }
+.r-list2 li h4{ padding: 0 0 5px;line-height: 20px; }
+.r-list2 li h4 a{ color: #0941fb;font-size: 14px; }
+.r-list2 li h4 a:hover{ text-decoration: underline; }
+.r-list2 li p{ color: #636363;line-height: 20px; }
+
+/*新加代码*/
+.wrap{width:620px;!important ;height:auto; clear:both; padding-top:42px;}
+
+.contant1 dl{width:600px;height:100%;border-bottom:1px dashed #E5E5E5;margin-left:5px;margin-top:15px;min-height: 60px}
+.contant1 dt{width:50px;height:50px;float:left; }
+.contant1 dd{width:538px;!important ;height:auto;float:left;line-height:25px;color:#434343; padding-left:10px;}
+.contant1 dd em{font-size:14px;color:#1A5DF5; font-style:normal; font-weight:bold;}
+.jiathis_txt{float:left;}
+.jiathis_txt a{dispaly:none;}
+.huifu img{vertical-align:middle; }
+.huifu{display:block;background:#000099;width:10;height:10px;}
+.input{width:84px;height:24px; background:url(../images/face_to_face_teaching_detail/fabiao.png) no-repeat; border:0;}
+.input1{width:523px;height:72px; border:1px solid #D2D2D2; vertical-align:middle;margin-left:5px; margin-top:20px; }
+.text span img{ padding-left:5px;  vertical-align:middle;float:left; margin-top:20px ;display:block}
+.input{margin-left:500px; margin-top:10px;}
+.ting{width:72px;height:21px;background:url(../images/face_to_face_teaching_detail/bg2.jpg) no-repeat; color:#CC0000; font-size:14px; display:inline}
+.e-3{position:absolute;top:0;left:0;  font-style:normal; color:#FFFFFF}
+.text{float:left;padding-top: 50px};
+.f_l contain-left{!important;height:auto;height:2000px;min-height:2000px;}
+.container float_box{!important;height:auto;height:2000px;min-height:2000px;}
+

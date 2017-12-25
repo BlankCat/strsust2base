@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"
+    "http://getahead.org/dwr/dwr30.dtd">
+   
+    <dwr>
+    
+    	<allow>
+    		<!-- <create creator="new" javascript="djMember">
+    			<param name="class" value="com.zfwlxt.vod.dao.DjMemberDao"></param>
+    		</create> -->
+    		
+    	<!-- 通过构造器将java对象转换成js 
+    	<create creator="new" javascript="ajaxservice">
+    			<param name="class" value="com.qulx.service.AjaxService" ></param>
+    		</create>
+    		<create creator="new" javascript="ajaxservice">
+    			<param name="class" value="com.qulx.service.AjaxService" ></param>
+    		</create>
+    		
+    		<create creator="new" javascript="unique">
+    			<param name="class" value="com.qulx.service.UniqueService" ></param>
+    		</create>
+    		
+    		<create creator="new" javascript="menu">
+    		
+    			<param name="class" value="com.qulx.service.MenuService"></param>
+    		</create>
+    		-->
+    		<!-- dwr+spring
+    		
+    		 -->
+    		
+    	<!-- 提供对javaBean的转换器 
+    		<convert match="com.zfwlxt.vod.model.DjMemorg" converter="bean"></convert>-->
+ 
+    	</allow>
+    
+    </dwr>
+    
+   

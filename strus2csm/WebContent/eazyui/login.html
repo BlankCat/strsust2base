@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>爱家社区运营管理平台</title>
+<script type="text/javascript" src="${ctx}/adminthemes/new/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="${ctx}/adminthemes/new/js/jquery-form-2.33.js"></script>
+<script type="text/javascript" src="../adminthemes/new/js/login.js"></script>
+<link rel="stylesheet" type="text/css" href="../adminthemes/new/css/denglu.css" />
+</head>
+
+<body>
+	<!--top-->
+	<div class="top">
+		<div class="top_n">
+			<div class="phon">
+				<img src="../adminthemes/new/images/pho.png" />
+			</div>
+			<div class="logo">
+				<img src="../adminthemes/new/images/logo.jpg" />
+			</div>
+		</div>
+	</div>
+	<!--top-->
+	<!--center-->
+	<div class="center">
+		<div class="dl_k">
+			<div class="dl_n">
+				<form>
+					<input type="hidden" name="apptype" value="1" />
+					<div class="dl_nz">
+						<#if timeout?exists && timeout=='yes'>
+						<h4>您尚未登录或已超时，请重新登录。</h4>
+						<#else>
+						<h4>用户登陆</h4>
+						</#if>
+					</div>
+					<div class="dl_nz">
+						<div class="dl_nl">用户名：</div>
+						<div class="dl_nr">
+							<input type="text" class="zc_inp" id="username" name="username"	value="${username!''}" />
+						</div>
+					</div>
+					<div class="dl_nz">
+						<div class="dl_nl">密码：</div>
+						<div class="dl_nr">
+							<input type="password" class="zc_inp" name="password" id="password" />
+						</div>
+					</div>
+					<div class="dl_nz">
+						<div class="dl_nl">验证码：</div>
+						<div class="dl_nr">
+							<input type="text" class="zc_inp zc_validate_code" id="valid_code" name="valid_code" />
+							<img id="code_img" class="code_img" />
+						</div>
+					</div>
+					<div class="dl_nz">
+						<div class="dl_nl">&nbsp;</div>
+						<div class="dl_nr">
+							<input type="button" class="zc_botm" id="login_btn" value="登&nbsp;&nbsp;&nbsp;&nbsp;录" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--center-->
+	<!--dow-->
+	<div class="dow">
+		<div class="dow_a">
+			Copyright © 2012-2014 海尔集团电子商务有限公司 版权所有<br />
+			ICP备案证书号：鲁ICP备09096283号
+		</div>
+	</div>
+	<!--dow-->
+	<script>
+		$(function() {
+			Loginer.init();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+.blk1{ background: url("../images/cooperate_lawyer_association/top-img.png") no-repeat center bottom #96b9ff;height: 307px;padding-top: 182px;width: 100%; }
+.blk1 .content{ padding: 30px;color: #fff; }
+.blk1 .content h1{ font-size: 18px;font-weight: bold;height: 30px;padding: 20px 0 0 0; }
+.blk1 .content ul{ font-size: 14px;list-style: square;padding: 20px 0 0 38px; }
+.blk1 .content ul li{ padding: 5px 0;line-height: 20px; }
+
+.titleNine{ background: url("../images/cooperate_lawyer_association/nine_title.png") no-repeat center bottom transparent;height: 60px;width: 100%; }
+.title1{ background: url("../images/cooperate_lawyer_association/title1.png") no-repeat center bottom transparent;height: 28px;width: 100%; }
+.title2{ background: url("../images/cooperate_lawyer_association/title2.png") no-repeat center bottom transparent;height: 72px;width: 100%; }
+
+.blk2_top{ padding: 26px 0 20px;width: 100%; }
+.blk2_top .left{ border: solid 1px #ccc;float: left;height: 220px;width: 343px;box-shadow: 1px 1px 2px #ddd; }
+.blk2_top .left .img_ctn{ height: 100%;width: 100%; }
+.blk2_top .left .img_ctn img{ height: 100%;width: 100%; }
+.blk2_top .center_wrapper{ float: left;border-right: solid 1px #d6d6d6;padding: 0 0 0 20px; }
+.blk2_top .center{ border-right: solid 1px #fff;color: #777;min-height: 222px;_height: 222px;padding: 0 35px 0 0;_overflow-y: auto;overflow-x: hidden;width: 298px; }
+.blk2_top .center *{ text-align: left; }
+.blk2_top .center h3{ color: #053cee;font-size: 16px; }
+.blk2_top .center .p1{ padding: 12px 0 10px; }
+.blk2_top .center .p2{ padding: 18px 0; }
+.blk2_top .center .words{ border-top: dotted 1px #ccc;padding: 0 0 10px; }
+.blk2_top .center .words .context .triangle-ic{ background: url("../images/cooperate_lawyer_association/triangle-ic.png") no-repeat transparent;display: inline-block;height: 12px;position: absolute;margin: -21px 0 0 -20px;*margin: -24px 0 0 -20px;width: 14px; }
+.blk2_top .center .words .context{ background-color: #eee;border-radius: 4px;padding: 15px;overflow: hidden;line-height: 20px;text-indent: 2em; }
+.blk2_top .right{ color: #777;float: right;min-height: 214px;_height: 214px;_overflow-y: auto;overflow-x: hidden;width: 230px; }
+.blk2_top .right h4{ color: #333;font-size: 14px;border-left: solid 4px #053cee;height: 16px;line-height: 16px;padding-left: 5px;margin: 3px 0; }
+.blk2_top .right ul{ border-top: solid 1px #ccc;padding: 8px 0 0 10px; }
+.blk2_top .right ul li{ padding: 2px 0;line-height: 25px; }
+.blk2_top .right ul li a{ color: #777;font-size: 14px; }
+.blk2_top .right ul li a:hover{ text-decoration: underline; }
+
+.blk2_btm{ background: url("../images/cooperate_lawyer_association/blk2-btm-bg.png") no-repeat center bottom transparent;padding-bottom: 11px; }
+.blk2_btm .blk2_btm_content{ border: solid 1px #ccc;padding: 19px;width: 920px; }
+.blk2_btm .blk2_btm_content .link_list{ border-right: dotted 1px #ccc;float: left;padding: 0 15px;width: 84px; }
+.blk2_btm .blk2_btm_content .link_list.last{ border-right: 0; }
+.blk2_btm .blk2_btm_content .link_list li{ height: 13px;line-height: 13px;overflow: hidden;padding: 5px 0;width: 100%; }
+.blk2_btm .blk2_btm_content .link_list .lawyer_association_link{ color: #777; }
+.blk2_btm .blk2_btm_content .link_list .lawyer_association_link:hover{ text-decoration: underline; }
+.blk2_btm_box{ width: 960px; }
+.associations_box.left{ float: left; }
+.associations_box.right{ float: right; }
+.associations_box{ height: 117px;width: 476px;padding-bottom: 6px; }
+.association_wrapper{ background: url("../images/cooperate_lawyer_association/blk2-btm-bg.png") no-repeat 0 bottom transparent;padding-bottom: 11px;_float: left; }
+.associations_content{ background: #fff;border: solid 1px #ccc;width: 444px;padding: 15px;_float: left; }
+.main_association{ border-bottom: solid 1px #e6e6e6;line-height: 24px;height: 24px;overflow: hidden;_float: left;width: 444px; }
+.main_association *{ font-size: 12px;font-weight: bold;color: #053cee; }
+.associationList{ width: 444px;padding: 5px 0 0 0;height: 44px;overflow: hidden;_float: left; }
+.associationList li{ float: left;width: 96px;overflow: hidden;padding: 0 1px 0 12px;line-height: 22px; }
+.associationList li a{ color: #777; }
+.absolute{ position: absolute;z-index: 20; }
+.hoverStyle.associations_content{ box-shadow: 0 0 20px #ddd inset; }
+
+.blk3{ padding: 30px 0 60px; }
+.blk3 .content{ width: 100%; }
+.blk3 .left{ float: left;height: 199px;padding: 0 0 0 30px;width: 407px; }
+.blk3 .right{ float: right;height: 199px;width: 380px;background: url("../images/cooperate_lawyer_association/cooperate_block_bg.png") no-repeat 0 0 transparent; }
+.blk3 .right h4{ background: url("../images/cooperate_lawyer_association/line_bg.png") repeat transparent;height: 17px;width: 100%; }
+.blk3 .right h4 span{ background: url("../images/cooperate_lawyer_association/cooperate_form_title.png") no-repeat #f7f7f7;display: inline-block;height: 17px;padding: 0 5px 0 0;width: 95px; }
+.blk3 .right p{ color: #777;line-height: 20px;padding: 30px;text-indent: 2em; }
+.blk3 .right .btn_box{ height: 34px;padding: 160px 0 0 93px; }
+.blk3 .right .btn_box .cooperate_form_link{ background: url("../images/cooperate_lawyer_association/btn_cooperate_form_submit.png") no-repeat #f7f7f7;display:inline-block;height: 34px;width: 131px; }
+.blk3 .right .btn_box .cooperate_form_link:hover{ filter:Alpha(Opacity=80);-moz-opacity:.80;opacity:0.80; }
+
+

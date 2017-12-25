@@ -1,0 +1,13 @@
+/* CSS Document */
+#com_april{display:none}
+table { border-collapse:collapse }
+.jyz{ width:595px; height:842px; position:absolute; z-index:2; top:10px; left:10px; display:block}
+.jyz_z{position:absolute; width:595px; height:842px; left:0; top:0; text-align:center}
+.jyz_z p{font-family:"隶书";font-size:22px; line-height:35px; width:422px; text-align:left; text-indent:2em; font-weight:500; position:absolute; top:310px; left:86px}
+.jyz_z p span { font-family:"隶书"; font-size:30px; }
+.jyz_z p.end{ top:390px}
+.jyz table { position:absolute; top:460px; left:120px; width:360px}
+.jyz table td { border:1px solid #0E1012; text-align:center; line-height:1.5; }
+.jyz table td.one{width:90px}
+.jyz_down {width:339px; height:130px; position:absolute; left:86px; top:750px; font-family:"黑体"; }
+.yinzhang { float:left; text-align:center;line-height:1.5; font-size:16px; font-family:"黑体"; position:absolute; top:670px; left:300px }
